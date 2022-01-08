@@ -1,26 +1,140 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    font-size: 50px;
+.first-class{
+    width: 80%;
+    margin: 0 auto;
 }
-h2{
-    color: chocolate;
-    font-size: 40px;
-}
-section{
+.flexy{
     display: flex;
 }
+.half-width h1{
+    font-size: 50px;
+    border-left: 3px solid rgb(187, 62, 62);
+    padding: 20px;
+}
+
 .half-width{
     width: 40%;
     padding-left: 10%;
 }
 .half-width img{
-    width: 100%;
+    width: 70%;
 }
 .link-button{
     text-decoration: none;
- background-image: linear-gradient(rgb(211, 165, 211),white);
+ background-image: linear-gradient(rgb(211, 165, 211),rgb(187, 62, 62));
     padding: 10px 30px;
     border-radius: 5px;
+}
+.blue-color{
+    color: rgb(119, 119, 194);
+}
+.headline{
+    width: 80%;
+    margin: 0 auto;
+}
+.headline h1{
+    text-align: center;
+}
+.mission-cls {
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 0 50px;
+    width: 30%;
+    border-radius: 10px;
+    
+}
+
+.mission-cls img{
+    height: auto;
+    width: 120px;
+}
+.mission-cls p{
+    margin-right: 100px;
+}
+.vision-cls{
+    background-color: rgb(101, 107, 117);
+    padding: 10px;
+    margin: 0 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+.vision-cls img{
+    height: auto;
+    width: 120px;
+}
+.goal-cls{
+    background-color: rgb(224, 227, 233);
+    padding: 10px;
+    margin: 0 50px;
+    width: 30%;
+    border-radius: 10px;
+}
+.goal-cls img{
+    height: auto;
+    width: 120px;
+
+}
+.develop{
+    margin-top: 60px;
+}
+.image-develop{
+    width: 50%;
+    margin-left: 60px;
+}
+.image-develop img{
+    width: 400px;
+    height: 400px;
+}
+.area-develop{
+    width: 50%;
+}
+.area-develop h1{
+    font-size: 30px;
+}
+.global{
+    margin-top: 60px;
+}
+.image-global img{
+    width: 400px;
+    height: 400px;
+}
+.image-global{
+    width: 50%;
+   margin-left: 300px;
+
+}
+.area-global{
+    width: 50%;
+    margin-left: 60px;
+}
+.area-global h1{
+
+font-size: 30px;
+}
+.image-global button{
+    background-color: orangered;
+    border: none;
+    padding: 10px 20px;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+
+}
+footer h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+
+
 }
