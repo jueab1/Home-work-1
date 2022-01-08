@@ -1,0 +1,26 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    color: chocolate;
+    font-size: 40px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+ background-image: linear-gradient(rgb(211, 165, 211),white);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
